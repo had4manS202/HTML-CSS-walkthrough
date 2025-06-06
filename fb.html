@@ -1,29 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Facebook Form</title>
 </head>
+
 <body>
-    <p style="color: blue;"> <span>Email or Phone </span></p>
-    <input type="text" placeholder=" ">
-    <p style="color: blue;"> <span>Password</span></p>
-    <input type="password" placeholder=" ">
-    <div> <a href="#">Forgotten account?</a></div>
-    <div><b>Create an account</b></div>
- <div> It's free and always will be.</div>
- <span><input type="text" placeholder="First name"></span>
- <span><input type="text" placeholder="Surname"></span>
- <div> <input type="text" placeholder="Mobile number or email"></div>
- <div><input type="text" placeholder="New password"></div>
- <div> Birthday</div>
- <span> <input type="date" placeholder=" Day "></span>
- 
-    <p style="color: blue;"> <span>Why do I need to provide my date of birth?</span></p>
-    <span> Male </span>
-    <span> Female </span>
-    <p>By clicking Create an account you agree to our <span style="color:blue;">Terms</span> and that you have read our <span style="color:blue;">Data Policy,</span> including our <span style="color:blue;">Cookie Use.</span></p>
-<p> <span style="color:blue;"> <b>Create a Page</b></span> for a celebrity, brand or business.</p>
+    <div align="right">
+        <form>
+            <table >
+                <tr>
+                    <th colspan="2">Create an account</th>
+                </tr>
+                <tr>
+                    <td colspan="2">It's free and always will be.</td>
+                </tr>
+                <tr>
+                    <td><input type="text" id="fname" placeholder="First Name" name="fname"></td>
+                </tr>
+                <tr>
+                    <td><input type="text" id="lname" name="lname" placeholder="Last name:"></td>
+                </tr>
+                <tr>
+                    <td><input type="text" name="contact" placeholder="Mobile number or email:"></td>
+                </tr>
+                <tr>
+                    <td><input type="password" placeholder="New password:" name="new_password"></td>
+                </tr>
+                <tr>
+                    <td>Birthday:</td>
+                    <td><input type="date" name="birthday"></td>
+                </tr>
+                <tr>
+                    <td>Gender:</td>
+                    <td>
+                        <input type="radio" id="male" name="gender" value="male">
+                        <label for="male">Male</label>
+                        <input type="radio" id="female" name="gender" value="female">
+                        <label for="female">Female</label>
+                    </td>
+                </tr>
+               
+                </tr>
+                <tr>
+                    <td colspan="2" >
+                        <input type="submit" value="Create an account">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <b>Create a Page</b> for a celebrity, brand or business.
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
 </body>
+
 </html>
