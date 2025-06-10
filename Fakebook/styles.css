@@ -5,9 +5,9 @@
 }
 .header{
     display:flex;
-    /* align-items:center; */
-    justify-content:flex-end;
-    padding-right:50px;
+    align-items:center;
+    justify-content:end;
+    padding-right:10000px;
     gap:15px;
     background-color:rgb(82, 124, 250);
     color:white;
@@ -37,6 +37,7 @@
     align-items:end;
     margin:20px;
     padding:20px;
+    padding-right:150px;
     gap:100px;  
     font-family:calibri;
 }
@@ -114,4 +115,23 @@
     margin:5px;
     flex-direction: column;
     font-size:10px;
+}
+.creete {
+    display:flex;
+    flex-direction:column;
+    font-size:13px;
+    padding-top:10px;
+}
+.pokkiee{
+    display:flex;
+    padding-bottom:20px;    
+    
+}
+.gender {
+    font-size:20px;
+}
+.page {
+    padding-top:25px;
+    font-size:18px;
+    font-weight:bold;
 }
